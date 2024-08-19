@@ -26,7 +26,7 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size=800,
 docs = text_splitter.split_documents(documents)
 
 import os
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = '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'
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = 'hf_token'
 
 # llm
 hf_model = "mistralai/Mistral-7B-Instruct-v0.3"
